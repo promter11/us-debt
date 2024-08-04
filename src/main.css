@@ -1,0 +1,95 @@
+html {
+  font-family: "Tahoma", sans-serif;
+  font-size: 10px;
+}
+
+body {
+  min-height: 100vh;
+  background: url("./assets/background.jpg") no-repeat center center / cover;
+}
+
+body,
+h1 {
+  margin: 0;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 1.6rem;
+  pointer-events: none;
+}
+
+.block__wrapper {
+  position: relative;
+  max-width: 102.4rem;
+  width: 100%;
+  text-align: center;
+}
+
+.wrapper__title {
+  position: absolute;
+  top: -5.2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.4rem 6.4rem;
+  font-size: 4.8rem;
+  line-height: 5.8rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+  border: 0.3rem solid #ccc;
+  border-radius: 1.6rem;
+  background: white;
+  color: #333;
+}
+
+.wrapper__content {
+  padding: 1.2rem 2.4rem;
+  font-size: 7.6rem;
+  font-weight: bold;
+  line-height: 9.2rem;
+  text-transform: uppercase;
+  border: 0.4rem solid #aaa;
+  border-radius: 1.6rem;
+  background: white;
+  color: #db1e1e;
+}
+
+@media (max-width: 319px) {
+  html {
+    font-size: 1.5px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 599px) {
+  html {
+    font-size: 3px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  html {
+    font-size: 4.5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  html {
+    font-size: 6px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  html {
+    font-size: 7.5px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+  html {
+    font-size: 9px;
+  }
+}
