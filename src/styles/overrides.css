@@ -1,0 +1,15 @@
+html {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 10px;
+}
+
+body {
+  min-height: 100vh;
+  background: url("../assets/images/background.jpg") no-repeat center center /
+    cover;
+}
+
+body,
+h1 {
+  margin: 0;
+}
